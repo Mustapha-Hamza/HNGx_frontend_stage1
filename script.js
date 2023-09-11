@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     const slackUserName = "mustapha hamza";
-    const slackDisplayImage = "/image/HNGx_dp.png"; 
+    const slackDisplayImage = "image/HNGx_dp.png"; 
     const currentDayOfTheWeek = new Date().toLocaleDateString("en-US", { weekday: "long" });
     const currentUTCTime = Date.now();
     const myTrack = "Frontend";
